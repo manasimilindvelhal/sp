@@ -1,0 +1,13 @@
+goal:close window
+operator: o1:observe window:identify the target window to be closed
+o2:move cursor: move the mouse cursor to th close button of the window 
+o3: click: use the mouse to click on the close button
+o4:confirm action (if needed):confirm closure if a confirmation dialog appears
+
+methods:
+ m1:standard closure o1o2o3
+m2:closure with confirmation o1o2o3o4
+
+selection:
+if user is certain about closing window without confirmation, they use method 1
+if user wants to confirm the closure to avoid accidental action, they use method 2

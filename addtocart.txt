@@ -1,0 +1,16 @@
+goal: Select an item and add it to cart
+
+operators: 
+o1:observe available items:Scan the webpage to identify available items
+o2:select item:click on desired item to view details
+o3:add item to cart: click the "add to cart" button associated with the selected item
+
+methods:
+
+m1: browse and select:o1o2o3
+m2:search and select:o1perform search o2o3
+
+selection rules:
+
+if user knows the item they want the use method 1
+if user is looking for a specific item they use method2 

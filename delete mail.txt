@@ -1,0 +1,14 @@
+goal:delete the mail 
+operators: o1:observe mail
+o2: select mail:Click on the specific email to be deleted
+o3: delete mail:use the delete button or press the delete key to remove the selected email
+
+methods:
+
+m1:individual deletion: o1o2o3
+m2:batch deletion:o1 select multiple emails o3
+
+selection rules:
+if want to delete a single emial uses method 1
+if user want to delete multiple emails at once use method 2 
+
